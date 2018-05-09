@@ -1,6 +1,3 @@
-# ForceDirectLayout
-A simple implementation of force direct layout algorithm.
-
 ## 描述
 >Force-Directed Layout algorithms are graph drawing algorithms based only on information contained within the structure of the graph itself rather than relying on contextual information.
 
@@ -35,18 +32,26 @@ displacementX =  distX / dist * k * k / dist * ejectFactor
 
 
 用Java简单实现了这个算法，一些数据分布如下：
-![Graph 1. Iteration simulation of 24 nodes.](https://upload-images.jianshu.io/upload_images/3326381-6a81245209f3e541.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![Graph 2. Randomly generated 20 nodes, each having 1~7 links.](https://upload-images.jianshu.io/upload_images/3326381-dc877d3815a77fd4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![Graph 3. Simulation of 100 nodes, iterating for 200 times.](https://upload-images.jianshu.io/upload_images/3326381-4ee7a7269d249644.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Graph 1. Iteration simulation of 24 nodes.](https://upload-images.jianshu.io/upload_images/3326381-bd63ba0e18ed8cd3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+Graph 1. Iteration simulation of 24 nodes.
 
+![Graph 2. Randomly generated 20 nodes, each having 1~7 links.](https://upload-images.jianshu.io/upload_images/3326381-079db14045a33e5f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+Graph 2. Randomly generated 20 nodes, each having 1~7 links.
 
+![Graph 3. Simulation of 100 nodes, iterating for 200 times.](https://upload-images.jianshu.io/upload_images/3326381-c0fa4820e7dd5ea5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+Graph 3. Simulation of 100 nodes, iterating for 200 times.
 
 ---
 Refs:
-https://www.ibm.com/developerworks/cn/web/0909_fudl_flashsocial/#major3
-https://blog.csdn.net/newworld123made/article/details/51443603
-http://philogb.github.io/blog/2009/09/30/force-directed-layouts/
-https://bl.ocks.org/mbostock/4557698
 
+[1]https://www.ibm.com/developerworks/cn/web/0909_fudl_flashsocial/#major3
+
+[2]http://zhenghaoju700.blog.163.com/blog/static/13585951820114153548541/
+
+[3]https://blog.csdn.net/newworld123made/article/details/51443603
+
+[4]http://philogb.github.io/blog/2009/09/30/force-directed-layouts/
+
+[5]https://bl.ocks.org/mbostock/4557698
 
