@@ -31,7 +31,7 @@ displacementX =  distX / dist * k * k / dist * ejectFactor
 调试。
 
 
-用Java简单实现了这个算法，一些数据分布如下：
+分别用Java和JavaScript简单实现了这个算法，利用[D3](https://bl.ocks.org/mbostock/4557698)做图形化展示，下面是一些跑出来的数据呈现出的分布图：
 
 ![Graph 1. Iteration simulation of 24 nodes.](https://upload-images.jianshu.io/upload_images/3326381-bd63ba0e18ed8cd3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 Graph 1. Iteration simulation of 24 nodes.
